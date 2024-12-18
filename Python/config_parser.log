@@ -1,0 +1,52 @@
+2024-11-20 18:05:07,521 - ERROR - Error in parse_config: File config.txt does not exist
+2024-11-21 00:30:41,547 - ERROR - Error in parse_config: File config.txt does not exist
+2024-11-21 00:30:54,486 - ERROR - Error in parse_config: File config.txt does not exist
+2024-11-21 00:34:09,184 - ERROR - Error in parse_config: File config.txt does not exist
+2024-11-21 00:34:36,913 - INFO - Database section validated successfully.
+2024-11-21 00:34:36,913 - INFO - API section validated successfully.
+2024-11-21 00:34:36,914 - INFO - Configuration saved to config.json
+2024-11-21 00:34:36,914 - INFO - Configuration loaded from config.json
+2024-11-21 01:08:58,846 - INFO - Database section validated successfully.
+2024-11-21 01:08:58,846 - INFO - API section validated successfully.
+2024-11-21 01:08:58,846 - INFO - Configuration saved to config.json
+2024-11-21 01:08:58,846 - INFO - Configuration loaded from config.json
+2024-11-21 03:02:48,482 - INFO - Database section validated successfully.
+2024-11-21 03:02:48,482 - INFO - API section validated successfully.
+2024-11-21 03:02:48,482 - INFO - Configuration saved to config.json
+2024-11-21 03:02:48,482 - INFO - Configuration loaded from config.json
+2024-11-21 04:00:01,161 - INFO - Database section validated successfully.
+2024-11-21 04:00:01,162 - INFO - API section validated successfully.
+2024-11-21 04:00:01,162 - INFO - Configuration saved to config.json
+2024-11-21 04:00:01,162 - INFO - Configuration loaded from config.json
+2024-11-21 11:59:51,939 - INFO - Database section validated successfully.
+2024-11-21 11:59:51,940 - INFO - API section validated successfully.
+2024-11-21 11:59:51,940 - INFO - Configuration saved to config.json
+2024-11-21 11:59:51,940 - INFO - Configuration loaded from config.json
+2024-11-21 13:48:03,495 - INFO - Database section validated successfully.
+2024-11-21 13:48:03,495 - INFO - API section validated successfully.
+2024-11-21 13:48:03,496 - INFO - Configuration saved to config.json
+2024-11-21 13:48:03,496 - INFO - Configuration loaded from config.json
+2024-11-21 14:18:10,260 - INFO - Database section validated successfully.
+2024-11-21 14:18:10,260 - INFO - API section validated successfully.
+2024-11-21 14:18:10,260 - INFO - Configuration saved to config.json
+2024-11-21 14:18:10,260 - INFO - Configuration loaded from config.json
+2024-11-21 16:20:00,407 - INFO - Database section validated successfully.
+2024-11-21 16:20:00,407 - INFO - API section validated successfully.
+2024-11-21 16:20:00,407 - INFO - Configuration saved to config.json
+2024-11-21 16:20:00,407 - INFO - Configuration loaded from config.json
+2024-11-21 16:20:08,512 - INFO - Database section validated successfully.
+2024-11-21 16:20:08,512 - INFO - API section validated successfully.
+2024-11-21 16:20:08,512 - INFO - Configuration saved to config.json
+2024-11-21 16:20:08,512 - INFO - Configuration loaded from config.json
+2024-12-11 00:45:00,660 - INFO - Database section validated successfully.
+2024-12-11 00:45:00,660 - INFO - API section validated successfully.
+2024-12-11 00:45:00,661 - INFO - Configuration saved to config.json
+2024-12-11 00:45:00,661 - INFO - Configuration loaded from config.json
+2024-12-11 13:58:04,338 - INFO - Database section validated successfully.
+2024-12-11 13:58:04,338 - INFO - API section validated successfully.
+2024-12-11 13:58:04,338 - INFO - Configuration saved to config.json
+2024-12-11 13:58:04,338 - INFO - Configuration loaded from config.json
+2024-12-18 11:04:17,498 - INFO - Database section validated successfully.
+2024-12-18 11:04:17,498 - INFO - API section validated successfully.
+2024-12-18 11:04:17,498 - INFO - Configuration saved to config.json
+2024-12-18 11:04:17,499 - INFO - Configuration loaded from config.json
