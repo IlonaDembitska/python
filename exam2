@@ -1,0 +1,63 @@
+import re
+import unittest
+from functools import wraps
+
+# --- Клас для клієнта ---
+class Customer:
+    def __init__(self, name: str, email: str):
+        self.name = name
+        self.email = email
+
+    def __repr__(self):
+        return f"Customer(name={self.name}, email={self.email})"
+
+# --- Декоратор для валідації замовлення ---
+def validate_order(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        order = args[0]  # Перший аргумент - це об'єкт Order
+        if order.amount <= 0:
+            raise ValueError("Order amount must be positive")
+        if not isinstance(order.customer, Customer):
+            raise TypeError("Invalid customer")
+        return func(*args, **kwargs)
+    return wrapper
+
+# --- Клас для замовлення ---
+class Order:
+    def __init__(self, order_id: int, customer: Customer, amount: float):
+        self.order_id = order_id
+        self.customer = customer
+        self.amount = amount
+
+    @validate_order
+    def place_order(self):
+        return f"Order {self.order_id} placed successfully for {self.customer.name} with amount ${self.amount:.2f}"
+
+    def __repr__(self):
+        return f"Order(order_id={self.order_id}, customer={self.customer}, amount={self.amount})"
+
+
+# --- Unit-тести ---
+class TestOrderSystem(unittest.TestCase):
+    def setUp(self):
+        self.customer = Customer("John Doe", "john.doe@example.com")
+
+    def test_valid_order(self):
+        order = Order(1, self.customer, 100.0)
+        result = order.place_order()
+        self.assertEqual(result, "Order 1 placed successfully for John Doe with amount $100.00")
+
+    def test_invalid_order_amount(self):
+        order = Order(2, self.customer, -50.0)
+        with self.assertRaises(ValueError):
+            order.place_order()
+
+    def test_invalid_customer(self):
+        order = Order(3, "Invalid Customer", 50.0)
+        with self.assertRaises(TypeError):
+            order.place_order()
+
+
+if __name__ == "__main__":
+    unittest.main()
